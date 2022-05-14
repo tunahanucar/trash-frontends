@@ -1,0 +1,74 @@
+#navigation{
+    background-color: #2e2c2c;
+    color: #fff;
+    height: 8vh;
+}
+
+.login-button{
+    margin-right: 2vw;
+    width: 10vw;
+    height: 5vh;
+}
+.features{
+    margin-right: 55vw;
+}
+.user{
+    width: 10vw;
+    margin-left: 2vw;
+}
+
+.inner-header{
+    height: 8vh;
+    line-height: 8vh;
+    font-family: 'Barlow' sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+#main-frame{
+    height: 70vh;
+    width: 30vw;
+    margin-left: 35vw;    
+    background-color: #202122;
+    color: white;
+    border-radius: 2vh;
+    margin-top: 10vh;
+}
+#main-frame label{
+    margin-left: 10%;
+    display: block;
+    margin-bottom: 1vh;
+}
+.input-block{
+    display: block;
+    padding: 0.5vw;
+    width: 80%;
+    margin-left: 10%;
+    height: 4vh;
+    border-radius: 1vh;
+    margin-bottom: 2vh;
+    border: hsla(210,18%,87%,1);
+    outline: lightgreen;
+}
+
+.error{
+    color: red;
+    font-family: "Barlow" sans-serif;
+    text-align: center;
+    font-size: 19px;    
+}
+.button-here{
+    text-align: center;
+}
+.now{
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+}
+
+.login-text{
+    margin-top: 5vh;
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
+}

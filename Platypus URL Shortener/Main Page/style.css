@@ -1,0 +1,104 @@
+body {
+  background-color: #090247;
+}
+
+.navigation {
+  height: 10vh;
+  width: 100%;
+  line-height: 10vh;
+  background-color: #02010e;
+}
+
+.main {
+  height: 90vh;
+  background-color: #1d145c;
+  width: 60vw;
+  margin-left: 20vw;
+}
+
+.banner {
+  color: white;
+  font-size: 30px;
+  width: 60vw;
+  text-align: center;
+  position: fixed;
+  margin-top: 10vh;
+  font-family: "Red Hat Mono", monospace;
+  font-weight: 800;
+}
+
+.in {
+  width: 30vw;
+  height: 6vh;
+  position: fixed;
+  margin-top: 20vh;
+  margin-left: 15vw;
+  font-family: "Red Hat Mono", monospace;
+  font-weight: 800;
+  line-height: 6vh;
+}
+
+.uri {
+  position: fixed;
+  margin-top: 27vh;
+  height: 6vh;
+  line-height: 6vh;
+  width: 30vw;
+  margin-left: 15vw;
+  font-family: "Red Hat Mono", monospace;
+}
+
+.btt {
+  background-color: black;
+  color: white;
+  border: black;
+  margin-top: 35vh;
+  margin-left: 25vw;
+  width: 10vw;
+  border-radius: 1vh;
+  height: 5vh;
+  font-family: "Red Hat Mono", monospace;
+  font-weight: 800;
+}
+
+.result {
+  background-color: white;
+  width: 40vw;
+  margin-left: 10vw;
+  height: 10vh;
+  margin-top: 5vh;
+  border-radius: 2vh;
+  line-height: 10vh;
+}
+
+.old-url {
+  width: 20vw;
+  border-radius: 2vh;
+  float: left;
+  height: 10vh;
+}
+
+.old-url p {
+  margin-left: 0.5vw;
+}
+
+.new-url {
+  width: 16vw;
+  height: 10vh;
+  float: left;
+}
+
+.new-url p {
+  float: right;
+  margin-right: 0.5vw;
+  color: blue;
+}
+
+.copy {
+  background-color: #c5f0ff;
+  border: none;
+  color: blue;
+  font-family: "Red Hat Mono", monospace;
+  border-radius: 1vh;
+}
+/*# sourceMappingURL=style.css.map */

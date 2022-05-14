@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platypus Shortener</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet"/> 
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<!--Better than bitly-->
+<body>
+    <nav class="navbar navbar-dark navigation">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Platypus Shortener</span>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="banner">
+            Platypus URL Shortener
+        </div>
+        <div class="input-group mb-3 in">
+            <input type="text" class="form-control" placeholder="URL" aria-label="Original URL">
+        </div>
+        <div class="input-group mb-3 uri">
+            <input type="text" class="form-control" placeholder="Readable Area Name" aria-label="Readable name area">
+        </div>
+        <button class="btn btn-outline-secondary btt" type="button" id="shotbutton">Short it</button>
+        <div class="result">
+            <div class="old-url"><p>https://google.com</p></div>
+            <div class="new-url"><p><u>http://ps.xyz/deneme</u></p></div>
+            <button class="btn btn-outline-secondary copy" type="button" id="cp">Copy</button>
+        </div>
+    </div>
+</html>

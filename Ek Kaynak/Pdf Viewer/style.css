@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    width: 99vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 76%, rgba(9,9,121,1) 76%, rgba(7,55,152,1) 100%, rgba(0,212,255,1) 100%); 
+}
+
+audio{
+    width: 69vw;
+    border-radius: 2vh;
+    margin-top: 1vh;
+}
+
+#pdf-segment{
+    height: 95vh;
+    margin-top: 2.5vh;
+    width: 70vw;
+    margin-left: 15vw;
+}
+
+#menu{
+    height: 70vh;
+    width: 10vw;
+    margin-top: 10vh;
+}
+
+#control{
+    height: 70vh;
+    border-radius: 2vh;
+    background-color: gray;
+    border: solid salmon;
+}
+
+.pdf-view{
+    width: 69vw;
+    height: 85vh;
+    margin-top: 0.2vh;
+    border-radius: 1vh;
+}
+

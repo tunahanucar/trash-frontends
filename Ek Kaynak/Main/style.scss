@@ -1,0 +1,200 @@
+$header-font: "Poppins", sans-serif;
+$text-font: "Poppins", sans-serif;
+$background : #121212;
+$text-pink: #ff66c4;
+$text-link: #4fdde1;
+
+.header{
+    background-color: $background;
+    height: 10vh;
+}
+.name{
+    font-family: $header-font;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+}
+.folder{
+    height: 6vh;
+    margin-left: 1vw;
+}
+.space{
+    margin-left: 1.2vw;
+    margin-top: 1.6vh;
+    position: fixed;
+}
+.but{
+    font-family: $header-font;
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+    width: 70vw;
+    margin-right: 1vw;
+}
+
+.mybutton{
+    border: 2px solid $text-pink;
+    color: $text-pink;
+    span{
+        margin-right: 0.5vw;
+        margin-left: 0.5vw;
+    }
+    text-align: center;
+    background-color: $background;
+    outline: none;
+    border-radius: 1vh;
+    font-family: $header-font;
+    font-weight: 800;
+}
+.mybutton:hover{
+    background-color: $text-pink;
+    color: $background;
+    border: 2px solid $background;
+    border-radius: 1vh;
+}
+
+.cond{
+    width: 15vw;
+    text-align: center;
+    span{
+        border-bottom: 2px solid white;
+    }
+}
+.about{
+    width: 9vw;
+    text-align: center;
+    span{
+        border-bottom: 2px solid white;
+    }
+}
+.blog{
+    width: 8vw;
+    text-align: center;
+    span{
+        border-bottom: 2px solid white;
+        span{
+            color: #121212;
+        }
+    }
+}
+.login{
+    width: 10vw;
+}
+
+.main{
+    background-color: $background;
+    height: 90vh;
+}
+
+.left{
+    height: 90vh;
+    width: 50%;
+    float: left;
+}
+
+.desc{
+    font-family: $header-font;
+    font-weight: 800;
+    font-size: 38.2px;
+    color: white;
+    margin-left: 12vw;
+    margin-top: 10vh;
+}
+.desc-sub{
+    font-family: $header-font;
+    font-weight: 800;
+    font-size: 38.2px;
+    color: white;
+    margin-left: 12vw;
+    span{
+        color: $text-pink;
+    }
+}
+
+.desc-alt{
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 12vw;
+    margin-top: 5vh;
+    color: white;
+    width: 24vw;
+}
+
+.btn-grp{
+    width: 26vw;
+    margin-left: 12vw;
+    margin-top: 5vh;
+}
+.reg-main{
+    background-color: $background;
+    width: 10vw;
+    height: 7vh;
+    border: 2px solid #ff66c4;
+    color: $text-pink;
+    border-radius: 1vh;
+    font-family: $header-font;
+    font-weight: 800;
+    font-size: 16px;
+}
+.reg-main:hover{
+    background-color: $text-pink;
+    border: 2px solid $background;
+    color: $background;
+}
+
+.read-more{
+    background-color: $text-pink;
+    color: $background;
+    width: 10vw;
+    margin-left: 1vw;
+    height: 7vh;
+    border: 2px solid $background;
+    border-radius: 1vh;
+    font-family: $header-font;
+    font-weight: 800;
+    font-size: 16px;
+}
+.read-more:hover{
+    background-color: $background;
+    border: 2px solid $text-pink;
+    color: $text-pink;
+}
+
+.instagram{
+    margin-left: 11vw;
+    height: 7vh;
+    width: 30vw;
+    margin-top: 5vh;
+    font-family: $text-font;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    a{
+        color: $text-link;
+        text-decoration: none;
+    }
+    span{
+        text-align: start;
+        margin-left: 0.5vw;
+    }
+}
+.arrow{
+    height: 3vh;
+}
+
+
+.right{
+    height: 90vh;
+    width: 50%;
+    float: right;
+}
+.main-image{
+    width: 30vw;
+    height: 55vh;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+.s{
+    height: 2vh;
+}
