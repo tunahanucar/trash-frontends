@@ -1,0 +1,12 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: xx-large;
+}
+body{
+    text-align: center;
+    background-color: white;
+}
+.teapot{
+    width: 50vw;
+    height: 60vh;
+}
